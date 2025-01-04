@@ -5,11 +5,6 @@ body{
     height: 100%;
 }
 
-@font-face{
-	font-family: "Title";
-	src: url("fonts/kingsthings/Kingthings Trypewriter 2.ttf")
-	/*src: url("fonts/Courier Prime/Courier Prime.ttf")*/
-}
 page {
 	background-color: black;
 	height: 100%
