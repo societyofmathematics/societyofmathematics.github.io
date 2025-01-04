@@ -6,11 +6,10 @@ page {
 	background-color: black;
 	height: 100%
 }
-
 span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
 }
 h1 {
 	font-family: Times;
@@ -20,8 +19,6 @@ h1 {
 	margin-top: 8%;
     text-align: center;
 }
-
-
 h2 {
 	clear: both;
 	font-family: Times;
@@ -30,14 +27,15 @@ h2 {
 	text-decoration: underline;
 }
 h4{
-	font-size: 120%;
+	font-size: 90%;
+	margin-top:0;
 }
 h3{
 	font-family: Times;
 	font-size: 150%;
 	text-decoration: underline;
+	margin-bottom: 0;
 }
-
 p {
     display: inline;
     text-indent: 2em;
@@ -55,7 +53,6 @@ nav {
     font-size: 100%;
 	text-align: left;
 }
-
 nav a {
     margin: 0;
     color: black;
@@ -68,10 +65,9 @@ nav a {
 nav a img {
 	width:5%;
 }
-
 nav a:hover{
     color: white;
-    background-color: black; 
+    background-color: rgba(0, 0, 0, 0.7); 
 	border-radius: 5px;
 }
 nav li {
@@ -204,16 +200,15 @@ left p {
 
 }
 misc {
-	font-family: "Aony";
 	float: left;
 	clear: none;
 	margin-top: 5%;
-	margin-left: 7%;
+	margin-left: 4%;
 	padding-left: 1%;
 	padding-top: 1%;
 	padding-right: 3%;
 	padding-bottom: 2%;
-	width: 20%;
+	width: 30%;
 	overflow: wrap;
 	border-style: solid;
 	border-width: 5px 1px 1px 1px;
@@ -221,7 +216,6 @@ misc {
 }
 misc subsection{
 	width: 100%;
-	overflow: wrap;
 	border-style: solid;
 	border-width: 0px 0 0px 0;
 	float: left;
@@ -244,6 +238,45 @@ statement {
 	border-radius: 5px;
 }
 
+.col-info {
+	font-family: "Aony";
+	float: left;
+	clear: none;
+	margin-top: 5%;
+	margin-left: 8%;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	width: 35%;
+	overflow: wrap;
+	border-style: solid;
+	border-width: 5px 1px 1px 1px;
+	border-radius: 5px;
+}
+
+.col-misc {
+	float: left;
+	clear: none;
+	margin-top: 5%;
+	margin-left: 4%;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	width: 43%;
+	overflow: wrap;
+	border-style: solid;
+	border-width: 5px 1px 1px 1px;
+	border-radius: 5px;
+}
+.col-misc subsection{
+	width: 100%;
+	border-style: solid;
+	border-width: 0px 0 0px 0;
+	float: left;
+	padding: 5%;
+}
 /*FOOTER*/
 footer {
     width: 100%;
@@ -252,7 +285,7 @@ footer {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 2%;
-    clear: none;
+    clear: both;
     position: static;
     z-index: 100;
     margin: 0;
