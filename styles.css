@@ -146,7 +146,7 @@ td a:hover{
 left {
 	font-family: "Aony";
 	float: left;
-	clear: both;
+	clear: none;
 	margin-top: 5%;
 	margin-left: 7%;
 	padding-left: 7%;
@@ -290,10 +290,11 @@ footer {
 
 @media screen and (max-width: 600px) {
   left, right, misc, misc subsection, statement, .col-misc, .col-info, .col-misc subsection {
-    width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 94%; 
 	margin: 1%;
 	padding: 2%;
-    clear: both%; /* The width is 100%, when the viewport is 800px or smaller */
+    clear: both; 
+	float: left;
   }
   h1 {
 	  font-size: 350%;
