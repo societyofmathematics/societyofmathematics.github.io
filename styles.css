@@ -147,15 +147,13 @@ td a:hover{
 	background-color: lightblue;
 }
 
-left {
-	font-family: "Aony";
+.left {
 	float: left;
 	clear: none;
-	margin-top: 5%;
-	margin-left: 7%;
+	margin-left: 1%;
 	padding-left: 7%;
 	padding-top: 1%;
-	padding-right: 3%;
+	padding-right: 5%;
 	padding-bottom: 2%;
 	width: 40%;
 	overflow: wrap;
@@ -163,25 +161,24 @@ left {
 	border-radius: 5px;
 	border-width: 5px 1px 1px 1px;
 }
-left h2 {
+.left h2 {
 	text-align: left;
 }
-left h3 {
+.left h3 {
 	text-align: left;
 	margin-top: -43px;
 	clear: none;
 	font-size: 120%;
 }
 
-right {
+.right {
 	font-family: "Aony";
 	float: right;
 	clear: none;
-	margin-top: 5%;
-	margin-right: 7%;
-	padding-left: 7%;
+	margin-right: 10%;
+	padding-left: 4%;
 	padding-top: 1%;
-	padding-right: 3%;
+	padding-right: 5%;
 	padding-bottom: 2%;
 	width: 40%;
 	overflow: wrap;
@@ -189,16 +186,28 @@ right {
 	border-width: 5px 1px 1px 1px;
 	border-radius: 5px;
 }
-right h2 {
+.right h2 {
 	text-align: left;
 	margin-left: 10%;
 }
 
-right h3 {
+.right h3 {
 	text-align: left;
 	margin-left: 10%;
 	margin-top: -43px;
 	font-size: 120%;
+}
+
+.leadership-entry{
+	margin-top: 7%;
+	margin-bottom: 5%;
+	clear: both;
+	overflow: auto;
+}
+
+.leadership-entry img{
+	width: 40%;
+	border-radius: 5px;
 }
 misc {
 	float: left;
@@ -292,13 +301,24 @@ footer {
     margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-  left, right, misc, misc subsection, statement, .col-misc, .col-info, .col-misc subsection {
+@media screen and (max-width: 700px) {
+  .left, .right, misc, misc subsection, statement, .col-misc, .col-info, .col-misc subsection {
     width: 94%; 
 	margin: 1%;
 	padding: 2%;
     clear: both; 
 	float: left;
+  }
+  .leadership-entry {
+	  overflow: hidden;
+  }
+  .leadership-entry img{
+	  clear: both;
+	  float: center;
+	  width: 94%;
+	  padding-left: 2%;
+	  padding-right: 2%;
+	  border-radius: 5px;
   }
   h1 {
 	  font-size: 350%;
@@ -308,10 +328,11 @@ footer {
 	display: block;
 	font-size: 210%;
 }
+.
 }
 
 @media screen and (max-width: 350px) {
-  left, right, misc, misc subsection, statement, .col-misc, .col-info, .col-misc subsection {
+  .left, .right, misc, misc subsection, statement, .col-misc, .col-info, .col-misc subsection {
     width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
 	margin: 1%;
 	padding: 2%;
@@ -328,7 +349,7 @@ footer {
  h3 {
 	 font-size 130%;
  }
- left h3, right h3 {
+ .left h3, .right h3 {
 	 padding-top: 22px;
 	 font-size: 90%;
  }
@@ -339,7 +360,7 @@ footer {
 }
 
 @media screen and (max-width: 200px) {
-  left, right, misc, misc subsection, statement, .col-misc, .col-info, .col-misc subsection {
+  .left, .right, misc, misc subsection, statement, .col-misc, .col-info, .col-misc subsection {
     width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
 	margin: 1%;
 	padding: 2%;
