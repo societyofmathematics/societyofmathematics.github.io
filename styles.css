@@ -151,7 +151,7 @@ td a:hover{
 	float: left;
 	clear: none;
 	margin-left: 1%;
-	padding-left: 9%;
+	padding-left: 5%;
 	padding-top: 1%;
 	padding-right: 5%;
 	padding-bottom: 2%;
@@ -163,14 +163,14 @@ td a:hover{
 }
 .left h2 {
 	text-align: left;
+	margin-left: 10%;
 }
 .left h3 {
 	text-align: left;
 	margin-top: -43px;
-	clear: none;
+	margin-left: 10%;
 	font-size: 120%;
 }
-
 .right {
 	font-family: "Aony";
 	float: right;
